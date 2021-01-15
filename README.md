@@ -93,7 +93,7 @@ _**Important:**_
 
 ​	It works like:
 
-![image-20210115192703743](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210115192703743.png)
+![](.\idea\image-20210115192703743.png)
 
 > > Use `createStyle` to get a property object.
 > >
@@ -148,11 +148,11 @@ _**Important:**_
 
 After this, you will get new HTMLStyleElement in the **head** node:
 
-![image-20210115185637209](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210115185637209.png)
+![](.\idea\image-20210115185637209.png)
 
 The rules of `style#s998c8ac9` are:
 
-![image-20210115185848641](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210115185848641.png)
+![](.\idea\image-20210115185848641.png)
 
 ### Step2 [FC (Function Component)]
 
@@ -177,7 +177,7 @@ The rules of `style#s998c8ac9` are:
 
 It ends up like
 
-![image-20210115190104189](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210115190104189.png)
+![](.\idea\image-20210115190104189.png)
 
 
 
@@ -222,4 +222,4 @@ It ends up like
 
 Check the dev tool - Styles:
 
-![image-20210115190219233](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20210115190219233.png)
+![](.\idea\image-20210115190219233.png)

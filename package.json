@@ -1,7 +1,7 @@
 {
   "name": "reacss",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "description": "Inject CSS rules bound with React Component",
   "repository": {
     "type": "git",
