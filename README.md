@@ -65,7 +65,7 @@ To create a better approach, I wanted to find out how to validated the depended 
 
 
 
-## Import
+## Install
 
 * **npm**
 
@@ -93,7 +93,7 @@ _**Important:**_
 
 ​	It works like:
 
-![](.\idea\image-20210115192703743.png)
+![](https://pic3.zhimg.com/80/v2-ad324f87e08564ba347b66cd101dd94a_720w.jpg)
 
 > > Use `createStyle` to get a property object.
 > >
@@ -148,11 +148,11 @@ _**Important:**_
 
 After this, you will get new HTMLStyleElement in the **head** node:
 
-![](.\idea\image-20210115185637209.png)
+![](https://pic2.zhimg.com/80/v2-6a07f948c000124f5420d14943049279_720w.png)
 
-The rules of `style#s998c8ac9` are:
+Check the first rule item of `style#s998c8ac9` using dev tools:
 
-![](.\idea\image-20210115185848641.png)
+![](https://pic1.zhimg.com/80/v2-90c476be3db3eae972669d8458ff6ac8_720w.jpg)
 
 ### Step2 [FC (Function Component)]
 
@@ -177,7 +177,7 @@ The rules of `style#s998c8ac9` are:
 
 It ends up like
 
-![](.\idea\image-20210115190104189.png)
+![](https://pic4.zhimg.com/80/v2-ad0be663d6a6668e776f3dadcb656e53_720w.jpg)
 
 
 
@@ -185,7 +185,7 @@ It ends up like
 
 #### Solution 1: HOC
 
-> > Use `useStyleWrapper` to get a Wrapper Component, passing the return value of `createStyle`.
+> > Use `StyledWrapperCC` to create a Wrapper Component, passing the return value of `createStyle`.
 > >
 > > This container component won't create any additional DOM elements.
 
@@ -220,6 +220,3 @@ It ends up like
 >   }
 > ```
 
-Check the dev tool - Styles:
-
-![](.\idea\image-20210115190219233.png)
