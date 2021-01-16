@@ -1,4 +1,4 @@
-# reacss    ![](https://img.shields.io/badge/npm-v1.0.1-brightgreen)
+# reacss    ![](https://img.shields.io/badge/npm-v1.0.3-brightgreen)
 
 
 **Binding CSS dependency in React Components**
