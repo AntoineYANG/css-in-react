@@ -1,2 +1,2 @@
-import * as Index from './src/cssinreact';
-export default Index;
+import { createStyle, createAnimation, useStyleWrapper, StyledWrapperCC, connectStyle } from './src/cssinreact';
+export { createStyle, createAnimation, useStyleWrapper, StyledWrapperCC, connectStyle };
